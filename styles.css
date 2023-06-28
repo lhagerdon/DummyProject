@@ -163,7 +163,33 @@ header {
 
 /* Beginning of quote section */
 
+.quote-section {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #E5E7EB;
+}
 
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 54%;
+}
+
+.quote-section > .quote-text > h1 {
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.quote-section > .quote-text > h4 {
+    align-self: flex-end;
+}
 
 
 /* End of quote section */
