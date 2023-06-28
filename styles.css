@@ -250,3 +250,22 @@ header {
 
 
 /* End of call to action section */
+
+/* Beginning of footer */
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1f2937;
+}
+
+.footer-content > p {
+    color: white;
+}
+
+/* End of footer */
