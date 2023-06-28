@@ -193,3 +193,60 @@ header {
 
 
 /* End of quote section */
+
+/* Beginning of call to action section */
+
+.CTA-section {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.CTA-content {
+    width: 70%;
+    height: 40%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* .CTA-content > * {
+    border: 1px solid black
+} */
+
+.CTA-right {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CTA-left {
+    flex: 2;
+    color: white;
+}
+
+.CTA-left > p {
+    font-weight: lighter;
+}
+
+.CTA-right > button {
+    border: 2px solid white;
+    background-color: #3882f6;
+    height: 40px;
+    width: 40%;
+    color: #E5E7EB;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+
+
+/* End of call to action section */
