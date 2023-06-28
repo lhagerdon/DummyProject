@@ -17,6 +17,8 @@ header {
     flex-direction: column;
 }
 
+/* Beginning Hero Section */
+
 /* Navigation Menu */
 
 .header-nav {
@@ -102,3 +104,59 @@ header {
 .header-content > .right > p {
     color: #E5E7EB;
 }
+
+/* End Hero Section */
+
+/* Beginning of information section */
+.information-section {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.information-section > * {
+    flex: 1 1 auto
+}
+
+.information-section > h2 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-boxes {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-section > p {
+    width: 150px;
+    text-align: center;
+}
+
+.information-boxes > p {
+    width: 200px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(75, 112, 221);
+    border-radius: 10px;
+}
+
+/* End of Information Section */
